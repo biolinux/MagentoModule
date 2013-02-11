@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Packt
+ * @package    Packt_Socialwidget
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Packt_Socialwidget>
+            <version>0.0.1</version>
+        </Packt_Socialwidget>
+    </modules>
+    <global>
+        <helpers>
+            <socialwidget>
+                <class>Packt_Socialwidget_Helper</class>
+            </socialwidget>
+        </helpers>
+        <blocks>
+             <socialwidget>
+                <class>Packt_Socialwidget_Block</class>
+             </socialwidget>
+        </blocks>
+        <models>
+             <socialwidget>
+                <class>Packt_Socialwidget_Model</class>
+             </socialwidget>
+        </models>
+    </global>
+</config>
